@@ -1,64 +1,95 @@
-.left{
-width: 50%;
-height: 1024px;
-/*left: 0px;*/
-top: 0px;
-
-background:rgb(245, 96, 121);
-}
-.text{
+.titlebox{
     position: absolute;
-width: 400px;
-height: 69px;
-left: 237px;
-top: 462px;
+width: 603px;
+height: 161px;
+left: 25px;
+top: 39px;
 
+background: #C4C4C4;
+opacity: 0.4;
+border-radius: 40px;
+}
+.titletext{
+    position: absolute;
+width: 558px;
+height: 76px;
+left: 48px;
+top:-50px;
 font-family: Roboto;
 font-style: italic;
-font-weight: 500;
-font-size: 50px;
-line-height: 59px;
+font-weight: normal;
+font-size: 80px;
+line-height: 94px;
+display: flex;
+align-items: center;
+text-align: center;
 
-color: #000000;
+/* Blue 2 */
+
+color: blue;
 }
-.watchout{
+.outer
+{
     position: absolute;
-width: 396px;
-height: 356px;
-left: 927px;
-top: 313px;
+width: 285.61px;
+height: 260px;
+left: 681px;
+top: 213px;
 
-background: #2D9CDB;
-border-radius: 40px;
+background: #926565;
+/* Gray 3 */
+
+border: 2.24917px solid #828282;
+box-sizing: border-box;
+border-radius: 37.4861px;
 }
-.watchin{
+.iner{
     position: absolute;
-width: 346px;
-height: 308px;
-left: 25px;
-bottom: 24px;
+width: 246.21px;
+height: 171.36px;
+left: 20.09px;
+top: 18.91px;
 
-/* Gray 4 */
-
-background: #BDBDBD;
-border-radius: 40px;
+background: #C4C4C4;
+border-radius: 37.4861px;
 }
-.downbelt{
-  
-position: absolute;
-width: 269px;
-height: 196px;
-left: 990px;
-top: 631px;
+.buttonlayout
+{
+    position: absolute;
+width: 54.36px;
+height: 37.03px;
+background: #C4C4C4;
+border-radius: 50%;
+}
+.b1{
+    left: 20px;
+    top: 205px; 
+    background-image: url(time.png);   
+}
+.b2{
+    left: 89px;
+    top: 205px;
+}
+.b3{
+    left: 155px;
+    top: 205px;
+}
+.b4{
+    left: 219px;
+    top: 204px;
+}
+.belt{
+    position: absolute;
+width: 192px;
+height: 188px;
+left: 729px;
 background: #C4C4C4;
 border-radius: 50px;
 }
-.topbelt{
-    position: absolute;
-width: 269px;
-height: 206px;
-left: 990px;
-top: 143px;
-background: #C4C4C4;
-border-radius: 50px;
+.top
+{
+    top: 65px;
+}
+.bottom{
+    top: 434px;
 }
